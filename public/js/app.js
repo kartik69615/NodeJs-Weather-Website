@@ -1,4 +1,4 @@
-console.log("this is the client side javascript")
+console.log("this is the client side javascript after commit")
 
 // fetch methid is use in client side javascript
 
