@@ -1,6 +1,6 @@
 console.log("this is the client side javascript after commit")
 
-// fetch methid is use in client side javascript
+// fetch method is use in client side javascript
 
 
 const weather = document.querySelector('form')
