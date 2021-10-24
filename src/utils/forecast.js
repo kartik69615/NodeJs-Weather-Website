@@ -14,7 +14,8 @@ const url = 'http://api.weatherstack.com/current?access_key=acf8115b6e0fbb6e841b
             }
             else
             {
-                callback(undefined , body.current.weather_descriptions + ' Temperature ' +  body.current.temperature + ' Feels like ' + body.current.feelslike )
+                console.log(body)
+                callback(undefined , body.current.weather_descriptions + ' Temperature ' +  body.current.temperature + ', Feels like ' + body.current.feelslike + ', Humidity ' + body.current.humidity )
             }
     })
 }
